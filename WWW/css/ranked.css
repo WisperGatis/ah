@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    color: #9900ff;
+    background-color: #000;
+}
+div#container {
+    max-width: 1024px;
+    margin:0 auto;
+}
+    header, footer, section {
+    color: grey;
+    margin: 0%;
+}
+h1 {
+    line-height: 100px;
+    margin: 0;
+    background-image: url(../img/Daco_4482925.png);
+    background-repeat: no-repeat;
+    background-color: #9900ff;
+    padding-left: 70px;
+    background-position: 16px 20px;
+
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 18px 0;
+}
+article {
+    margin: 0%;
+    padding: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+/*colone*/
+footer.flex-container {
+    display : flex;
+}
+div.col3 {
+    width: 33.33%;
+    background-color:#9900ff;
+    margin: 8px;
+}
+
+figure, img {
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #B4926A;
+    border-radius: 16px;
+    max-width: 100%;
+}
+
+/*menu de navigation*/
+nav ul {
+    background-color: #B4926A;
+    color: black;
+    margin:0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-right:#fff 1px solid;
+}
+nav a:link, nav a:visited {
+    color: #fff;
+}
+nav a:hover, nav a:focus, nav a:active, nav a#current {
+    background-color: #9c9c9c;
+}
+nav ul li:last-child a {
+    border: none;
+}
+
+/*tables*/
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+thead th {
+    background-color: #666;
+    color: #fff;
+    text-transform: uppercase;
+}
+td, th {
+    border: #000 1px solid;
+    padding:4px 8px;
+}
+tbody th {
+    text-align: left;
+    background-color: rba(0,0,0,0, 0.2);
+}
+tr:nth-child(even) {
+    background-color: #666;
+}
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+/*Form*/
+fieldset {
+    background-color: #9900ff;
+    border: #aaa 1px;
+    margin: 8px 0;
+    padding: 16px;
+}
+legend {
+    font-size: 140%;
+    color: #000;
+    text-decoration: uppercase;
+    padding: 4x 8px;
+    text-align: center;
+}
+label {
+    width: 150px;
+    float: left;
+    clear: both;
+    line-height: 30px;
+}
+label.nospace {
+    width: auto;
+    clear: none;
+    margin: 4px 6px 4px 0;
+}
+input {
+    margin: 4px 0;
+    padding: 4px 8px;
+    line-height: 20px;
+    border-radius: 8px;
+}
+input[type=radio], input[type=checkbox], input[type=file], input[type=date], input[type=password] {
+    margin: 0 4px 0 0;
+}
+input:hover {
+    background-color: #B4926A;
+    border: #9900ff 1px dotted;
+    outline: none;
+}
+input:active, input:focus {
+    background-color: #9900ff;
+    border: #B4926A 1px dotted;
+    outline: none;
+}
+p#disclaimer {
+    text-align: center;
+}
+#rankedtheme {
+    background-color: #9900ff;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/html">
+    <meta charset="utf-8">
+<head>
+  <title>Cours 101</title>
+  <link href="css/screen.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript">
+    window.onload = init1;
+  </script>
+</head>
+<meta name="keyword" content="Overwatch, overwatch league">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+        <div id="container">
+	<header>
+		<h1><strong>Chengdu Hunters</strong></h1>
+	</header>
+    <nav>
+        <ul>
+        <li>
+            <a href="#" id="current" title="apprendre a coder en html et css">Accueil</a>
+        </li>
+        <li>
+            <a href="balise.html" title="liste des principales balises zbi"> bon ben voilà quoi</a>
+        </li>
+        <li>
+            <a href="formulaire.html" title="formulaire de contact"> laisse moi dormir</a>
+        </li>
+        <li>
+            <a href="Support.html" title="Formulaire de demande d'aide"> Envoer un ticket</a>
+        </li>
+        <li>
+            <a href="WWW/ranked.html" title="Ranked tutorial">Ranked expliquée</a>
+        </li>
+        <li>
+            <a href="Liensutiles.html" title="Liens utiles">liens utiles</a>
+        </li>
+        </ul>
+    </nav>
+			<script>
+			
+			import $ from 'jquery'
+
+				$.getJSON("https://ow-api.com/v1/stats/pc/eu/Wisp-21574/complete", function(data) {
+    			document.getElementById("name").innerHTML = data['name'];
+				});
+			
+			</script>
+        <p align="center">
+			<section>
+				<article>
+					<div class="states-mercy">
+					<p align="center">
+                        <div id="name">Nom :</div>
+                        <div id="Level">Niveau(sans les cadres) :</div>
+                        <div id="endorsement">Endorsement level :</div>
+					</p>
+                    </div>
+				</article>
+			</section>
+			<section>
+				<article>
+					<h2>
+						<strong>
+							Les states de la meilleure Mercy d'Europe.
+						</strong>
+					</h2>
+					<p align="center">
+						
+					</p>
+					<div id="mercy_states">
+					<p>
+						<strong>Healing done :</strong><br>
+						<strong>Res done :</strong><br>
+						<strong>Damage boost</strong><br>
+					</p>
+					</div>	
+				</article>
+			</section>
+        </p>
+        <footer class="flex-container">
+            <div class="col3">CDH</div>
+            <div class="col3">Let's go hunt!</div>
+            <div class="col3">Wisp</div>
+        </footer>
+	</body>
+</html>

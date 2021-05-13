@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+    <meta charset="utf-8">
+<head>
+  <title>Cours 101</title>
+  <link href="css/screen.css" type="text/css" rel="stylesheet">
+</head>
+    <body>
+        <div id="container">
+	<header>
+		<h1><strong>Overwatch wiki</strong></h1>
+	</header>
+    <nav>
+        <ul>
+        <li><a href="index.html" title="apprendre a coder en html et css"> Accueil</a></li>
+        <li><a href="balise.html" title="liste des principales balises zbi">Balises</a></li>
+        <li><a href="#" id="current" title="formulaire de contact">Une équipe, maligne</a></li>
+        <li><a href="Support.html" title="Formulaire de demande d'aide"> Envoyer un ticket</a></li>
+        <li><a href="ranked.html" title="Ranked tutorial">Ranked expliquée</a></li>
+        </ul>
+    </nav>
+    <section>
+		<article>
+			<h2>formualire de contact</h2>
+            <form action="daillen.php" id="contactform" method="post">
+                <fieldset><!---groupe de champs-->
+                    <legend>Vos coodronnées</legend>
+                    <label>Titre :</label>
+                    <label class="nospace"><input type="radio" name="titre" id="man"value="h">Homme</label>
+                    <label class="nospace"><input type="radio" name="titre" id="Woman"value="f">Femme</label><br><br>
+                    <label for="Lastname">Nom :</label>
+                    <input type="text" id="Lastname" name="Nom"><br>
+                    <label for="Firstname">Prénom :</label>
+                    <input type="text" id="Firstname" name="prenom"><br>
+                    <label for="mail">Mail :</label>
+                    <input type="mail" id="mail"><br>
+                    <label for="phone">Tel :</label>
+                    <input type="tel" id="phone" name="téléphone"><br>
+                    <label>Votre profile :</label>
+                    <label class="nospace"><input type="checkbox" name="réseaux" id="network">Réseaux</label>
+                    <label class="nospace"><input type="checkbox" name="développement" id="dev">Dev</label>
+                    <label class="nospace"><input type="checkbox" name="WebDesign" id="wdesign">Web design</label>
+                    <label class="BornDate"><input type="date" name="Date de naissance" id="BornDate">Date de naissance</label><br>
+                    <label class="Doc"><input type="file" name="Doc" id="Doc">Vos docs</label><br>
+                    <label class="mdp"><input type="password" name="psd" id="password">mot de passe :</label><br>
+                </fieldset>
+                <button oneclick="window.location.href='reponse.html/';"type="submit">Envoyer</button>
+            </form>
+        </article>
+    </section>
+    <p id="disclaimer">Notre équipe se réserve le droit de ne pas vous répondre.</p>
+        <footer class="flex-container">
+            <div class="col3">copyright</div>
+            <div class="col3">tout droit réservé</div>
+            <div class="col3">Mixte</div>
+            </footer>
+        </div>
+    </body>
+</html>
