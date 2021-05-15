@@ -164,7 +164,7 @@ div.shangai {
 img {
     box-shadow: 1px 1px 12px #555;
 }
-id#name, id#Level, id#endorsement {
+#name, #Level, #endorsement {
 	text-align: right;
 	color: rebeccapurple;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
