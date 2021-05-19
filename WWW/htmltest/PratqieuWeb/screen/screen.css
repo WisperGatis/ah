@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #000;
+    margin: 10%;
+    font-size: 100%;
+}
+header, h1 {
+    color: black;
+    background-color: gray;
+    text-align: center;
+}
+footer {
+    font-size: 70%;
+    color: blue;
+}
